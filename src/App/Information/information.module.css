@@ -1,0 +1,17 @@
+.info {
+	color: white;
+	font-size: 5em;
+	font-family: monospace;
+}
+
+.winnerInfo {
+	color: greenyellow;
+}
+
+.gameInfo {
+	color: white;
+}
+
+.drawInfo {
+	color: gray;
+}

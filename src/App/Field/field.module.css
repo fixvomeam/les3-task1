@@ -1,0 +1,48 @@
+.container {
+	position: relative;
+	top: 50px;
+	margin: 0 auto;
+	background-color: rgb(95, 98, 107);
+	height: 530px;
+	width: 530px;
+	user-select: none;
+}
+
+.table {
+	position: relative;
+	left: 20px;
+	top: 90px;
+	bottom: 40px;
+	font-weight: bold;
+	font-family: monospace;
+	border-spacing: 10px;
+}
+
+.button {
+	position: relative;
+	text-align: center;
+	height: 110px;
+	width: 110px;
+	font-size: 70px;
+	background-color: rgb(254, 254, 254);
+	box-shadow: 0 6px rgba(254, 254, 254, 0.514);
+}
+
+.buttonRepeate {
+	position: relative;
+	margin-top: 70px;
+	text-align: center;
+	height: 100px;
+	width: 200px;
+	font-size: 35px;
+}
+
+.button:hover {
+	box-shadow: 0 4px rgba(254, 254, 254, 0.514);
+	top: 2px;
+}
+
+.button:active {
+	box-shadow: none;
+	top: 6px;
+}
